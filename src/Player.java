@@ -3,7 +3,7 @@ public class Player implements Person{
     String name = "";
     int Age = 1;
     int height = 1;
-    
+    Game GO = new Game();
     Player(String name, int age, int Height){
         this.name = name;
         Age = age;
@@ -22,7 +22,7 @@ public class Player implements Person{
         return Age;
     }
     
-    //public Results  getResults(){
-    //return    
-    //} 
+    public Results  getResults(){
+    return GO;
+    } 
 }

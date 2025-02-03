@@ -11,8 +11,8 @@ public class Game implements Results{
 
     }
     
-    //public Results result(){
-        
-    //}
+    public Results getresult(){
+        return setAge;
+    }
     
 }
